@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Droid Serif', serif;
+    background: url(../images/computer.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.navbar-default .navbar-brand{
+    color: black;
+}
+.navbar-default{
+    background: white;
+}
+.center{
+    text-align: center;
+    padding: 15%;
+}
+h1,p{
+    color: white;
+}
+h2 > span{
+    color: white;
+
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 14px 14px 0;
+    
+}
+
+#login .social-buttons{
+    margin: 12px 0
+}
+.btn-fb{
+    color: #fff;
+    background-color: #3b599d;
+}
+
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+    
+}
+
+.btn-fb:hover{
+    color: #fff;
+    background-color: #496ebc;
+}
+
+btn-tw:hover{
+    color: #fff;
+    background-color: #496ebc;
+    
+}
